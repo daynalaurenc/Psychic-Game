@@ -32,8 +32,7 @@ document.onkeypress = function(event) {
     document.getElementById("guessedletters").innerHTML = "Your Guesses so far: " + guessedLetters;
 }
 
-function resetGame(){
-    win = 0;
+function resetGame() {
     guesses = 9;
     guessedLetters = [];
     computerChoice = alphabet[Math.floor(math.random() * alphabet.length)];
